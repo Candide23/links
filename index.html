@@ -1,147 +1,121 @@
+<!DOCTYPE html>
 <html>
   <head>
     <style>
       body {
+        background-color: #004643;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #004643;
-        display: block;
-        margin:8px;
+        display: flex;
+        justify-content: center;
       }
 
-.banner-image {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 128px;
-}
-.thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
-}
+      .name{
+        color: #fffffe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
 
-.name {
-  color: #fffffe;
-}
+      .banner-image{
+        width: 128px;
+        height: 128px;
+        object-fit:cover;
+        border-radius:128px;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
 
-.social-icons a {
-  color: #fffffe;
-}
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+      
+      .item {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
 
-.link {
-  background-color: #f9bc60;
-  background-color: #f9bc60;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-}
+      .item a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+      }
 
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-  text-align: center;
-  flex-grow: 1;
-  list-style-type: circle;
-
-  
-}
-
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 640px;
-  flex-grow: 1;
-}
-
-* {
-  border: thin red solid;
-}
-
-.name {
-  color: #fffffe;
-  display: flex;
-  justify-content: center;
-}
-
-.banner {
-  display: flex;
-  justify-content: center;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-}
-
-
-     
+      .social-icons {
+        color: #fffffe;
+        text-decoration: mediumaquamarine;
+        display: flex;
+        justify-content: space-around;
+      }
     </style>
   </head>
-<body>
+  <body>
 
-  <div class="banner">
-    <img src="candide.jpg
-    " alt="Candide headshot" class="banner-image"
-    >
-  </div>
+    <div class="items">
+      <div class="banner">
+        <img src="https://plus.unsplash.com/premium_photo-1661826792893-5b300391d34f?auto=format&fit=crop&q=80&w=1978&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Candide Mbk headshot" class="banner-image">
+      </div>
+  
+      <div class="name">
+        Candide Mbk
+      </div>
+  
+      <div class="social-icons">
+        <a href="https://github.com/Candide23" target="_blank">
+          GitHub
+        </a>
+  
+        <a href="https://www.linkedin.com/in/candide-mboungou-kimpolo-231644217/" target="_blank">
+          LinkedIn
+        </a>
+  
+        <a href="https://www.instagram.com/african_animals/" target="_blank">
+          Instagram
+        </a>
+  
+        <a href="https://twitter.com/AfricanimaIs" target="_blank">
+          Twitter
+        </a>
+      </div>
+  
+      <div class="item">
+        <img
+          src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cow sticking tongue out" class="thumbnail">
+  
+        <a class="item-link" target="_blank" href="https://giraffeconservation.org/wp-content/uploads/2016/02/GCF-Giraffe-booklet-2019-LR-spreads-c-GCF.pdf"> Giraffe </a>
+      </div>
+  
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1507461476191-0ed4f9f18533?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cow rollerblading" class="thumbnail">
+  
+        <a class="item-link" target="_blank"
+          href="https://www.earthday.org/wp-content/uploads/species/elephants.pdf"> One of the Biggest Animals in the world !
+        </a>
+      </div>
+  
+      <div class="item">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661955721972-21de69a905e5?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dog rollerblading" class="thumbnail">
+  
+        <a class="item-link" target="_blank" href="https://www.skindhuset.dk/upload_dir/shop/Zebra.pdf"> Everything you have to know about Zebra
 
-  <div class="name">
-    Candide Doe
-  </div>
-
-  <div class="social-icons">
-    <a href="https://github.com/raghubetina" target="_blank">
-      GitHub
-    </a>
-
-    <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
-      LinkedIn
-    </a>
-
-    <a href="https://www.instagram.com/raghubetina/" target="_blank">
-      Instagram
-    </a>
-
-    <a href="https://twitter.com/raghubetina" target="_blank">
-      Twitter
-    </a>
-  </div>
-
-  <div class="link">
-    <img
-      src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-
-    <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
-      — Paul Graham</a>
-  </div>
-
-  <div class="link">
-    <img src="/thumbnails/typography.jpg">
-
-    <a target="_blank"
-      href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
-      Butterick</a>
-  </div>
-
-  <div class="link">
-    <img
-      src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg">
-
-    <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
-      Life-Saving Checklist — The New Yorker</a>
-  </div>
-  <div class="link">
-    <img
-      src="https://unsplash.com/fr/photos/uomo-in-piedi-davanti-alla-statua-gZKzBhsO6KY.jpg">
-
-    <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
-      Life-Saving Checklist — The New Yorker</a>
-  </div>
-
-  <!-- Etc, for as many links as you want -->
-</body>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
